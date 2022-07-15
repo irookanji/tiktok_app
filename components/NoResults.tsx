@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const NoResults = () => {
-  return (
-    <div>NoResults</div>
-  )
+interface IProps {
+  text: string;
 }
 
-export default NoResults
+const NoResults = ({ text }: IProps) => {
+  return <div>No results</div>;
+};
+
+export default NoResults;
