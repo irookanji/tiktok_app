@@ -95,4 +95,3 @@ interface IProps {
     };
   };
   export default Profile;
-  
